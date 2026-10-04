@@ -7,11 +7,11 @@ const weeks=[
 ['06','Static, Final & Inner Classes','Static members, final keyword and nested/inner class programs.',['static','final','Inner Classes']],
 ['07','Strings & Inheritance','String constructors, StringBuffer, StringTokenizer and inheritance.',['String','StringBuffer','Inheritance']],
 ['08','Advanced Inheritance','Advanced inheritance concepts, overriding and polymorphism.',['super','Overriding','Polymorphism']],
-['09','Packages & Interfaces','Packages, interfaces and related Java concepts.',['Packages','Interfaces','OOP']],
+['09','Packages & Interfaces','User-defined packages, imports, access modifiers, CLASSPATH and interfaces.',['Packages','Interfaces','CLASSPATH']],
 ['10','Exception Handling','Try-catch, multiple catch, throw, throws, finally and custom exceptions.',['Exceptions','try/catch','Custom']],
-['11','Character Streams & Threads','Character streams and multithreading — content coming soon.',['Streams','Threads','Coming Soon']]
+['11','Character Streams & Threads','Reader/Writer, FileReader/FileWriter and Java multithreading programs.',['Streams','Threads','Reader/Writer']]
 ];
-const available=new Set(['01','02','03','04','05','06','07','08','10']);
+const available=new Set(['01','02','03','04','05','06','07','08','09','10','11']);
 const grid=document.getElementById('weekGrid');
 weeks.forEach(([n,title,desc,tags])=>{
  const card=document.createElement('article'); card.className='card';
