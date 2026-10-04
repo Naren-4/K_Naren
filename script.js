@@ -11,7 +11,7 @@ const weeks=[
 ['10','Exception Handling','Try-catch, multiple catch, throw, throws, finally and custom exceptions.',['Exceptions','try/catch','Custom']],
 ['11','Character Streams & Threads','Character streams and multithreading — content coming soon.',['Streams','Threads','Coming Soon']]
 ];
-const available=new Set(['01','02','03','04','05','06','07','10']);
+const available=new Set(['01','02','03','04','05','06','07','08','10']);
 const grid=document.getElementById('weekGrid');
 weeks.forEach(([n,title,desc,tags])=>{
  const card=document.createElement('article'); card.className='card';
