@@ -11,3 +11,6 @@ A clean, aesthetic GitHub Pages website for the Java Programming Lab record.
 
 ## PDF status
 Weeks 1–8 and 10 are included. Week 9 is marked Empty. Week 11 is marked Coming Soon.
+
+
+Week 12 has been added: Multithreading & Lambda Expressions. Search supports topics such as thread priorities, synchronization, lambda expressions, functional interfaces, and ArrayList.

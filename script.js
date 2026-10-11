@@ -9,9 +9,10 @@ const weeks=[
 ['08','Advanced Inheritance','Advanced inheritance concepts, overriding and polymorphism.',['super','Overriding','Polymorphism']],
 ['09','Packages & Interfaces','User-defined packages, imports, access modifiers, CLASSPATH and interfaces.',['Packages','Interfaces','CLASSPATH']],
 ['10','Exception Handling','Try-catch, multiple catch, throw, throws, finally and custom exceptions.',['Exceptions','try/catch','Custom']],
-['11','Character Streams & Threads','Reader/Writer, FileReader/FileWriter and Java multithreading programs.',['Streams','Threads','Reader/Writer']]
+['11','Character Streams & Threads','Reader/Writer, FileReader/FileWriter and Java multithreading programs.',['Streams','Threads','Reader/Writer']],
+['12','Multithreading & Lambda Expressions','Thread priorities, synchronization, race conditions, ticket booking, lambda expressions, functional interfaces and ArrayList operations.',['Multithreading','Lambda Expressions','Synchronization','Race Condition','Functional Interface','ArrayList','Thread Priority']]
 ];
-const available=new Set(['01','02','03','04','05','06','07','08','09','10','11']);
+const available=new Set(['01','02','03','04','05','06','07','08','09','10','11','12']);
 const grid=document.getElementById('weekGrid');
 function renderWeeks(filter=''){
  grid.innerHTML='';
